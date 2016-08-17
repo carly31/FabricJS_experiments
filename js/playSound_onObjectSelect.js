@@ -11,7 +11,7 @@ var canvas = new fabric.Canvas('can', {
 //Sound
 var Sound = {
     playMove: function() {
-        var sound = new Audio('../media/move.wav');
+        var sound = new Audio('media/move.wav');
         sound.play();
     }
 };
